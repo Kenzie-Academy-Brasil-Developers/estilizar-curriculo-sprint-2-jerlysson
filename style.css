@@ -1,4 +1,4 @@
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6,hr, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
 	border: 0;
 	font: inherit;
 	font-size: 100%;
@@ -23,12 +23,14 @@ p {
 }
 
 #cv {
-	background-color: ;
 	width: 90%;
 	max-width: 800px;
 	margin: 30px auto;
 }
-
+/* hr {
+	background-color: #cf8a05;
+    height: 2px;
+} */
 .mainDetails {
 	padding: 25px 35px;
 }
@@ -86,8 +88,6 @@ p {
 	color: #444444;
 }
 
-#contactDetails ul li a:hover {
-}
 
 section {
 	border: 1px;
@@ -142,12 +142,12 @@ section:last-child {
 .keySkills ul li {
 	margin-bottom: 3px;
 }
-#line {
+hr {
 	width: 100%;
 	height: 2px;
 	background-color: #cf8a05;
 }
-.line1 {
+.line {
 	width: 100%;
 	height: 1px;
 	background-color: #0e0e0e;
