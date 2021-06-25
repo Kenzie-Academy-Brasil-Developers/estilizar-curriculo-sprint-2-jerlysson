@@ -83,12 +83,6 @@ hr {
 	text-decoration: none;
 }
 
-#contactDetails ul li a, a[href^=tel] {
-
-	color: #444444;
-}
-
-
 section {
 	border: 1px;
 	padding: 20px 0 0;
